@@ -13,7 +13,7 @@ gcc-multilib
 sudo apt install gcc-multilib
 </pre>
 
-実行
+実行（cdで実行ファイルがあるディレクトリへ）
 
 <pre>
   ./hello
