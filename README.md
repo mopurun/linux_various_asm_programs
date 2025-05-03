@@ -12,3 +12,9 @@ gcc-multilib
 <pre>
 sudo apt install gcc-multilib
 </pre>
+
+実行
+
+<pre>
+  ./hello
+</pre>
