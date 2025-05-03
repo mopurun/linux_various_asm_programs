@@ -10,9 +10,9 @@ main:
 
 mov eax,0
 cpuid
+push ebx
 push edx
 push ecx
-push ebx
 push dword msg1
 call printf
 add esp, 16
@@ -26,7 +26,7 @@ call exit
 section .data
 
 
-msg1 : db "ebx:%u,ecx:%u,edx:%u", 0xA, 0
+msg1 : db "ecx:0x%x,edx:0x%x,ebx:0x%x", 0xA, 0
 
 
 section .bss
