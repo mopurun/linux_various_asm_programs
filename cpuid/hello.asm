@@ -2,8 +2,6 @@ global main
 
 ;Declare used libc functions
 extern exit
-extern puts
-extern scanf
 extern printf
 
 section .text
@@ -23,8 +21,7 @@ add esp, 16
 
 push dword 0
 call exit
-add esp, 4
-ret
+
 
 section .data
 
